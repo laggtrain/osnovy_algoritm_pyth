@@ -1,5 +1,5 @@
 from math import *
 
-x = int(input("номер места - "))
-coupe = ceil(x / 4)
-print(f"купе номер - {coupe}")
+seat_number = int(input("Введите номер места - "))
+coupe = ceil(seat_number / 4)
+print(f"Ваше купе номер - {coupe}")
